@@ -1,8 +1,22 @@
-## OpenSTREAM-solvers
+# OpenSTREAM-solvers
 
-The OpenSTREAM (**Open** **S**olvers for **T**wo-phase flow **R**esearch, **E**ngineering **A**nalysis and **M**odeling) computational environment, introduced by (Le Corre et al., 2025), is a modern open-source platform designed to enable efficient and collaborative development and validation of one-dimensional, multi-field, two-phase flow models. The platform currently support single-component, incompressible, steady-state and transient boiling two-phase flows in straight channels. In addition to the mixture and two-fluid models (Walter, 2025), OpenSTREAM provides advanced simulation frameworks for annular two-phase flow, which are currently limited to thermal-equilibrium conditions, i.e., applicable up to film dryout.
+OpenSTREAM (**Open** **S**olvers for **T**wo-phase flow **R**esearch, **E**ngineering **A**nalysis and **M**odeling) is a computational environment that provides several open-source, one-dimensional, multi-field, two-phase flow simulation frameworks designed to facilitate efficient and collaborative model development and validation.
 
-The three-field model is based on a simplified nine-equation framework, similar to the model implemented in the MEFISTO-T subchannel analysis code ([Adamsson and Le Corre, 2014](<https://www.sciencedirect.com/science/article/abs/pii/S0029549314005081>)). The four-field model extends the three-field approach by separating the liquid film into a slower, continuous base liquid film and faster, dispersed disturbance waves. This model, recently developed by ([Le Corre, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0301932222000696)), is intended to capture the intermittency of disturbance waves and base liquid film (including evaporation) in annular two-phase flow.
+These frameworks include a mixture solver, a two-fluid solver, a three-field solver, and an advanced four-field solver of annular two-phase flow. The implemented models support single-component, compressible, steady-state and transient boiling two-phase flows in single straight channels developed under reasonable simplifying assumptions. Basic closure models have been implemented, subject to future improvements.
+
+OpenSTREAM-database provides a code application and validation environment for OpenSTREAM, allowing to easily run and evaluate any solver based on the provided public datasets.  
+
+OpenSTREAM and openSTREAM-database are aimed at facilitating access to a two-phase flow simulation frameworks to support collaborative model development, performance evaluation, and validation across research institutions.
+
+## Getting started
+
+Detailed [installation instructions](https://openstream-solvers.github.io/openstream/Usage/gettingStarted.html) can be found in the software documentation.
+
+Tutorials are provided to get familiar with most common functionalities.
+
+## License
+
+OpenSTREAM is distributed under the MIT license. This means you are free to use, modify, and distribute the software, provided that you include the original copyright notice and license text in any copies or substantial portions of the software.
 
 
 <!--
