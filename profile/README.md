@@ -1,28 +1,48 @@
-# OpenSTREAM-solvers
+# OpenSTREAM
 
-OpenSTREAM (**Open** **S**olvers for **T**wo-phase flow **R**esearch, **E**ngineering **A**nalysis and **M**odeling) is an open-source computational environment for simulating one-dimensional, multi-field, two-phase flows, including phase change. It is designed to support efficient and collaborative model development, performance evaluation, and validation across users and institutions.
+OpenSTREAM (**Open** **S**olvers for **T**wo-phase flow **R**esearch,
+**E**ngineering **A**nalysis and **M**odeling) is an open-source
+computational environment for simulating one-dimensional, multi-field,
+two-phase flows, including phase change. It supports efficient and
+collaborative model development, performance evaluation, and validation
+across users and institutions.
 
-OpenSTREAM includes several solver frameworks:
-- A **mixture solver** with thermal non-equilibrium capabilities
-- A generic **two-fluid solver**
-- A **three-field solver** for annular two-phase flow
-- An advanced **four-field solver** for annular two-phase flow
+## Repositories
 
-These solvers support single-component, thermally expandable, steady-state and transient boiling two-phase flows in single straight channels, developed under reasonable simplifying assumptions. Basic closure models have been implemented, subject to future improvements.
+OpenSTREAM and OpenSTREAM-database together form an open-source ecosystem
+for two-phase flow simulation, application, and validation.
 
-OpenSTREAM-database provides an application and validation environment for OpenSTREAM, enabling users to easily run and evaluate any solver using publicly available datasets.
+### OpenSTREAM
+Core simulation platform and solver frameworks. OpenSTREAM supports
+single-component, thermally expandable, multi-field two-phase flow
+simulations with phase change under steady-state and transient conditions,
+based on one-dimensional channel-flow formulations.
 
-OpenSTREAM and OpenSTREAM-database are aimed at facilitating access to two-phase flow simulation frameworks to support collaborative model development, performance evaluation, and validation across research institutions.
+### OpenSTREAM-database
+Companion repository providing applications, datasets, validation cases,
+and workflows. OpenSTREAM-database provides an application and validation
+environment for OpenSTREAM, enabling users to easily run and evaluate any
+solver using publicly available datasets.
 
-## Getting started
+## Documentation
 
-To install and begin using OpenSTREAM, please refer to the [installation instructions](https://openstream-solvers.github.io/openstream/Usage/gettingStarted.html) in the software documentation.
+Documentation is available at:
 
-Tutorials are available to help users become familiar with core functionalities.
+https://openstream-solvers.github.io/openstream/
+
+## Getting Started
+
+Most users should begin with the OpenSTREAM repository and then use
+OpenSTREAM-database to access applications, examples, and validation cases.
+
+To install and begin using OpenSTREAM, refer to the
+[Getting started guide](https://openstream-solvers.github.io/openstream/Usage/gettingStarted.html)
+in the software documentation.
 
 ## Citing
 
-If you use OpenSTREAM in your research or activities, please cite the following publications:
+If you use OpenSTREAM in your research or activities, please cite the
+following publications:
 
 - J.-M. Le Corre, J. Chan, E. Walter, E. T. Hurlburt, and R. W. Morse, “OpenSTREAM: A new open-source platform for two-phase flow model development,” *12th International Conference on Multiphase Flow (ICMF 2025)*, Toulouse, France, May 12-16, 2025.
 
@@ -30,7 +50,9 @@ If you use OpenSTREAM in your research or activities, please cite the following 
 
 ## License
 
-OpenSTREAM is distributed under the MIT License. This permits free use, modification, and distribution of the software, provided that the original copyright notice and license text are included.
+OpenSTREAM is distributed under the MIT License. This permits free use,
+modification, and distribution of the software, provided that the original
+copyright notice and license text are included.
 
 
 <!--
